@@ -1,0 +1,28 @@
+  .Birthday_List{
+      display:grid;
+      grid-template-columns: repeat(5, 2fr);
+      margin: 50px 80px;
+      padding-top: 60px;
+
+      }  
+
+      @media (max-width: 1250px) {
+        .Birthday_List{
+        display:grid;
+        grid-template-columns: repeat(3, 2fr);}
+          
+      }
+
+      @media (max-width: 850px) {
+        .Birthday_List{
+        display:grid;
+        grid-template-columns: repeat(2, 2fr);}
+          
+      }
+
+      @media (max-width: 600px) {
+        .Birthday_List{
+        display:grid;
+        grid-template-columns: repeat(1, 2fr);}
+          
+      }

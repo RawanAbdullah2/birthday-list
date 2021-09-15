@@ -1,0 +1,41 @@
+
+
+.Birthday_Card{
+margin: 15px 30px;
+height: 150px;
+background-color: rgb(255, 204, 212);
+align-items: center;
+padding-top: 10px;
+}
+
+.Birthday_Card__Date{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.Birthday_Card__Month{
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+.Birthday_Card__Day{
+    font-size: 1.25rem;
+
+}
+.Birthday_Card__year{
+    font-size: 1.25rem;
+
+}
+
+.Birthday_Card__Name{
+    font-size: 1.25rem;
+ color: black ;
+ font-family:monospace;
+}
+
+.line{
+    border-bottom: 2px solid aliceblue;
+    margin: 10px 30px;
+
+}
